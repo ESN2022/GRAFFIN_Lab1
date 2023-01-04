@@ -1,0 +1,9 @@
+	component Lab1_qsys is
+		port (
+			clk_clk      : in  std_logic                    := 'X'; -- clk
+			pio_0_export : out std_logic_vector(7 downto 0);        -- export
+			pio_1_export : in  std_logic                    := 'X'; -- export
+			rst_reset_n  : in  std_logic                    := 'X'  -- reset_n
+		);
+	end component Lab1_qsys;
+

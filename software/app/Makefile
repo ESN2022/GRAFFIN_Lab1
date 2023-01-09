@@ -142,7 +142,7 @@ ACDS_VERSION := 18.1
 ELF := main.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += D:/Graffin_ESN11/ESN2022/GRAFFIN_Lab1/software/app/main.c
+C_SRCS += main.c
 CXX_SRCS :=
 ASM_SRCS :=
 
@@ -180,7 +180,7 @@ CRT0 :=
 SYS_LIB :=
 
 # Define path to the root of the BSP.
-BSP_ROOT_DIR := D:/Graffin_ESN11/ESN2022/GRAFFIN_Lab1/software/bsp
+BSP_ROOT_DIR := ../bsp/
 
 # List of application specific include directories, library directories and library names
 APP_INCLUDE_DIRS :=

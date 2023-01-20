@@ -17,8 +17,7 @@ Pour ce premier exercice, j'ai utilisé un Nios2 avec ses périphériques néces
 
 ![image](https://user-images.githubusercontent.com/75631006/212178333-fa4b9fe0-c9e9-4bfe-a043-b8fb1fc08147.png)
 
-
-![image](https://user-images.githubusercontent.com/75631006/211356399-ac0007ec-12f5-4fcc-97d5-122cea5af28b.png)
+![image](https://user-images.githubusercontent.com/75631006/213666847-ac47bbdf-a539-46e0-8028-1083f47b6c67.png)
 
 J'ai utilisé 3 PIO pour connecter les périphériques extérieurs au FPGA, car les LEDs sont en sortie alors que les boutons et les switchs en entrée et j'ai différencié les switchs aux boutons pour que ce soit plus pratique dans le code C.
 De plus, mon bloque hardware est simple, c'est juste la connexion avec la clock, le reset et les PIO dans le VHDL, et grâce à la datasheet de la carte DE10 Lite, j'ai connecté dans le pin planer les bonnes Pin avec mes ressources.
